@@ -1,0 +1,71 @@
+{
+    "Header": {
+        "1": "Start",
+        "2": "O nas",
+        "3": "Oferta",
+        "4": "Kompetencje",
+        "5": "Kontakt"
+    },
+    "Popup": {
+        "1": "Niestety w dniu dzisiejszym nie pracujemy. Zapraszamy jutro :)",
+        "2": "Dzisiaj jesteśmy dyspozycyjni od 10:00 do 14:00",
+        "3": "Dzisiaj jesteśmy dyspozycyjni od 10:00 do 17:00",
+        "4": "Jest godzina",
+        "5": "Zadzwoń teraz!",
+        "6": "Dzisia już nie pracujemy."
+    },
+    "Who": {
+        "1": "- Kim jesteśmy? -",
+        "2": "Bez względu na to czy prowadzisz dużą firmę, jesteś mikroprzedsiębiorcą lub po prostu potrzebujesz wsparcia w załatwieniu formalności, chętnie Ci w tym pomożemy.",
+        "3": "Nasza firma oferuje profesjonalny i kompleksowy outsourcing biznesowy.",
+        "4": "Nasze usługi umożliwią Ci i Twojej firmie zaoszczędzić nie tylko czas, ale też pieniądze.",
+        "5": "Oferujemy Ci elastyczny harmonogram, który dopasujemy do Ciebie i do twoich potrzeb.",
+        "6": "Nasz szeroki wachlarz usług oraz profesjonalny zespół pomoże Ci w łatwiejszy sposób zrealizować cele i strategie Twojej firmy.",
+        "7": "Wybierając nas, zyskujesz pewność na wprowadzenie innowacyjnych rozwiązań.",
+        "8": "OSZCZĘDZAJ CZAS I PIENIĄDZE"
+    },
+    "Colab": {
+        "1": "- Czytaj więcej -",
+        "2": "Administracja",
+        "3": "organizacja obiegu dokumentów",
+        "4": "kadry",
+        "5": "księgowość",
+        "6": "kontakt z ZUS, US i innymi organami administracji publicznej",
+        "7": "rekrutacje",
+        "8": "podpisywanie umów",
+        "9": "szkolenia dla pracowników oraz kadry",
+        "10": "prezenty dla pracowników i partnerów biznesowych",
+        "11": "rozliczenia",
+        "12": "Start dla firmy",
+        "13": "zakładanie działalności gospodarczej i spółek",
+        "14": "kompleksowe prowadzenie firmy",
+        "15": "Dofinansowania i przetargi",
+        "16": "przygotowanie wniosków",
+        "17": "kompletowanie dokumentów",
+        "18": "zarządzanie procesem",
+        "19": "Tłumaczenia",
+        "20": "tłumaczenie dokumentów oraz tekstów: angielski, niemiecki, hiszpański, francuski, arabski, japoński",
+        "21": "tłumaczenie symultaniczne: angielski",
+        "22": "Eventy, spotkania, podróże",
+        "23": "konferencje",
+        "24": "imprezy okazjonalne i integracyjne",
+        "25": "spotkania biznesowe",
+        "26": "podróże służbowe"
+    },
+    "Competencies": {
+        "1": "Naszą misją jest uwalnianie biznesu od procesów zatrudnienia pracowników",
+        "2": "Głównym celem jest dostarczanie naszym Partnerom najwyższej jakości rozwiązań w oparciu o właściwie dobrane zasoby ludzkie i najnowszą technologię teleinformatyczną.",
+        "3": "Kompetencje",
+        "4": "Każdy projekt przygotowujemy zgodnie z indywidualnymi oczekiwaniami i potrzebami Zleceniodawcy. Dbamy o najdrobniejszy szczegół ważny dla naszego Partnera i Jego Klienta.",
+        "5": "Naszym priorytetem jest efektywność oraz jakość dostarczanych usług."
+    },
+    "Contact": {
+        "1": "Skontaktuj się z nami!",
+        "2": "Jesteśmy do Twojej dyspozycji:",
+        "3": "Poniedziałek - piątek 10:00 - 17:00",
+        "4": "Sobota 10:00 - 15:00",
+        "5": "Telefon:",
+        "6": "Dane firmy:",
+        "7": "Polska, Warszawa NIP: 7393747402 REGON: 389737549"
+    }
+}

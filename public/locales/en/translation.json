@@ -1,0 +1,71 @@
+{
+    "Header": {
+        "1": "Welcome",
+        "2": "About",
+        "3": "Offer",
+        "4": "Competencies",
+        "5": "Contact"
+    },
+    "Popup": {
+        "1": "Today we are closed. Please come back tomorrow :)",
+        "2": "Today we are open beetwen 10:00 - 14:00",
+        "3": "Today we are open beetwen 10:00 - 17:00",
+        "4": "It is",
+        "5": "Call us!",
+        "6": "Sorry! Come back tomorrow."
+    },
+    "Who": {
+        "1": "- Who we are? -",
+        "2": "Regardless of whether you run a large company, are a micro-entrepreneur or simply need support in completing the formalities, we will be happy to help you.",
+        "3": "Our company offers professional and comprehensive business outsourcing.",
+        "4": "Our services will allow you and your company to save not only time, but also money.",
+        "5": "We offer you a flexible schedule that will suit your needs.",  
+        "6": "Our wide range of services and professional team will help you achieve your company's goals and strategies in an easier way.",
+        "7": "By choosing us, you can be sure to introduce innovative solutions.",
+        "8": "Save Your time and money"
+    },
+    "Colab": {
+        "1": "- Read More -",
+        "2": "Administration",
+        "3": "organization of document circulation",
+        "4": "HR management",
+        "5": "accountancy",
+        "6": "contact with Social Insurance Institution (ZUS), Tax Administration (US) and other public administration departments",
+        "7": "recruitment",
+        "8": "signing contract",
+        "9": "training for employees and staff",
+        "10": "gifts for employees and business partners",
+        "11": "settlements",
+        "12": "Company bootstrap",
+        "13": "setting up a business and companies",
+        "14": "comprehensive company management",
+        "15": "Funding and tenders",
+        "16": "preparation of applications",
+        "17": "completing documents",
+        "18": "process management",
+        "19": "Translations",
+        "20": "translation of documents and texts: English, German, Spanish, French, Arabic, Japanese",
+        "21": "simultaneous translation: English",
+        "22": "Events, meetings, business travels",
+        "23": "conferences",
+        "24": "occasional and integration events",
+        "25": "business meetings",
+        "26": "business travels"
+    },
+    "Competencies": {
+        "1": "Our goal is to free You from the employment processes.",
+        "2": "The main goal is provide our partners the highest quality solutions based on properly selected human resources and the latest ICT technology.",
+        "3": "Competencies",
+        "4": "Every project we prepare accordance with the individual expectations our partners. We take care about smallest details in our client projects.",
+        "5": "Our priority is efficiency and high quality of our provided services."
+    },
+    "Contact": {
+        "1": "Contact us!",
+        "2": "We are open between:",
+        "3": "Monday - friday 10:00 - 17:00",
+        "4": "Saturday 10:00 - 15:00",
+        "5": "Phone:",
+        "6": "Company info:",
+        "7": "Poland, Warsaw NIP: 7393747402 REGON: 389737549"
+    }
+}
