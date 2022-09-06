@@ -83,7 +83,7 @@ const Popup = () => {
 
 const Language = () => {
   return (
-      <div className="language Oswald">
+      <div className="language Oswald absolute">
         <a className='text-white' onClick={() => handleClick('pl')}>PL</a>
         <a className='text-white' onClick={() => handleClick('en')}>ENG</a>
       </div>
@@ -93,6 +93,8 @@ const Language = () => {
 const Menu = () => {
     const [t, i18n] = useTranslation();
     const [navbar, setNavbar] = useState(false)
+    const [isActive, setActive] = useState(true);
+
     const changeBackground = () => {
         if (window.scrollY >= 300) {
             setNavbar(true)
@@ -100,19 +102,27 @@ const Menu = () => {
             setNavbar(false)
         }
     }
+    const openMenu = () => {
+        setActive(!isActive);
+    }
+
     useEffect(() => {
         window.addEventListener('scroll', changeBackground)
     })
   return (
     <header className={navbar ? "header header-scrolled" : "header"}>
-        <Language />   
-          <nav className="Oswald">
+        <Language />  
+          <button className="burger">
+                <span onClick={openMenu} className={!isActive ? "material-symbols-outlined open hide" : "material-symbols-outlined open"}>menu</span>
+                <span onClick={openMenu} className={!isActive ? "material-symbols-outlined close" : "material-symbols-outlined hide"}>close</span>
+          </button> 
+          <nav className={!isActive ? "Oswald active" : "Oswald"}>
             <ul>
-              <li><a href="#hero">{t('Header.1')}</a></li>
-              <li><a href="#about">{t('Header.2')}</a></li>
-              <li><a href="#offer">{t('Header.3')}</a></li>
-              <li><a href="#komp">{t('Header.4')}</a></li>
-              <li><a href="#contact">{t('Header.5')}</a></li>
+              <li><a onClick={openMenu} href="#hero">{t('Header.1')}</a></li>
+              <li><a onClick={openMenu} href="#about">{t('Header.2')}</a></li>
+              <li><a onClick={openMenu} href="#offer">{t('Header.3')}</a></li>
+              <li><a onClick={openMenu} href="#komp">{t('Header.4')}</a></li>
+              <li><a onClick={openMenu} href="#contact">{t('Header.5')}</a></li>
             </ul>
           </nav>
       </header>
@@ -246,11 +256,11 @@ const Contact = () => {
                 <div className="row pt-5">
                     <div className="col mx-5">
                         <h2 className="Oswald">Email:</h2>
-                        <p className="h5 Nunito"><a href="mailto:contact@szumiel.com">contact@szumiel.com</a></p>
+                        <p className="h5 Nunito small"><a href="mailto:contact@szumiel.com">contact@szumiel.com</a></p>
                     </div>
                     <div className="col mx-5">
                         <h2 className="Oswald">{t('Contact.5')}</h2>
-                        <p className="h5 Nunito"><a href="tel:+48731030490">+48 731 03 04 90</a></p>
+                        <p className="h5 Nunito small"><a href="tel:+48731030490">+48 731 03 04 90</a></p>
                     </div>
                     <div className="col mx-5">
                         <h2 className="Oswald">{t('Contact.6')}</h2>

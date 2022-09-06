@@ -92,6 +92,29 @@
   transition: 0.3s;
 }
 
+.burger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  font-size: 36px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  transition: transform .3s;
+  cursor: pointer;
+  display:none;
+}
+
+.active {
+  transform: translateX(550px)
+}
+
+.hide {
+  display: none;
+}
+
 .bg-image {
   background-image: url('background.jpg');
   height: 100vh; 
@@ -215,4 +238,53 @@
 @keyFrames popup {
   0%{margin-left:-500px;}
   100%{margin-left:50px;}
+}
+
+@media (max-width: 500px) {
+  .burger {display:block;}
+  .header {
+    padding-top:0px;
+  }
+  .header ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    text-align: center;
+    padding-top: 50px;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    left: -550px;
+    background-color: rgb(255, 255, 255);
+  }
+  .header li {
+    display:inline;
+    padding:10px;
+    font-size:18px;
+  }
+  .header a {
+    display: block;
+    color: #333;
+    text-decoration: none; 
+  }
+  .header-scrolled {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .absolute {
+    display: flex;
+    padding-top: 20px;
+    padding-right:20px;
+  }
+  .material-symbols-outlined {
+    position: absolute;
+    z-index: 10;
+    top:20px;
+  }
+  .open {color:white;}
+  .close {color:black;}
+  .popup {
+    display:none;
+  }
+  .bg-image h1 {font-size:30px;}
+  .bg-image h2 {font-size:15px;}
 }
