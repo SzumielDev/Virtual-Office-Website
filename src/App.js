@@ -68,7 +68,7 @@ const Popup = () => {
     }
     
     return (
-        <section className={!isActive ? "fixed-bottom not-active" : "fixed-bottom"}>
+        <div className={!isActive ? "fixed-bottom not-active" : "fixed-bottom"}>
                             <div className='popup Oswald'>
                                 <div className='position-relative' onClick={closePopup}><span className="material-symbols-outlined">close</span></div>
                                 <img className="max-width" alt="img" src={require(`./background3.jpg`)} />
@@ -77,7 +77,7 @@ const Popup = () => {
                                     <Watch time={time} day={week[day]}/>
                                 </div>
                             </div>                          
-        </section>
+        </div>
     )
 }
 
@@ -136,9 +136,12 @@ const Background = () => {
       }, []);
   return(
     <div id="hero" className="bg-image">
-      <div className="flex Oswald">
-          <h1 style={{cursor:"pointer"}} data-aos="fade-up">Szumiel</h1>
-          <h2 style={{cursor:"pointer"}} data-aos="fade-up">Virtual System Management</h2>
+        <div data-aos="fade-up" className="flex Oswald">
+            <h1 className='text-center'>Szumiel
+                <div className='wiggle'>
+                    <h2 className='text-center Nunito'>Virtual System Management</h2>
+                </div>
+            </h1>
       </div>   
     </div> 
   )
@@ -160,7 +163,7 @@ const Info = () => {
                     <p className="pt-4 h6">{t('Who.7')}</p>
                 </div>
                 <div className="col-xxl-4 m-auto">
-                    <p className="h5 a2 Nunito">{t('Who.8')}</p>
+                    <p className="h5 a2 Nunito underline">{t('Who.8')}</p>
                 </div>
             </div> 
         </div>
@@ -178,14 +181,14 @@ const ColaborationModule = (props) => {
     }
 
     return (
-        <div className="col">
+        <div className="col-sm">
             <img className="pulsing shadow-sm max-width" alt="img" src={require(`${props.img}`)} />
             <p className="h4 pt-4 text-center Oswald">{props.name}</p>
             <div className="text-center">
-                <button type="button" onClick={toggleClass}>{t('Colab.1')}</button>
+                <button className='mb-t' type="button" onClick={toggleClass}>{t('Colab.1')}</button>
                 <p className={!isActive ? "not-active" : null}>...</p>
             </div>
-            <ul className={`pt-2 Oswald ${isActive ? "not-active" : null}`}>
+            <ul className={`pt-2 Oswald mb-t fadeInList ${isActive ? "not-active" : null}`}>
                 {newList}
             </ul>
         </div>        
@@ -248,23 +251,23 @@ const Contact = () => {
         <section id="contact" className="container-fluid d-flex pb-2 bg-image-contact">
             <div data-aos-easing="ease-in-out" data-aos="fade-up" className="container-lg mt-5 mb-5 mx-auto text-white contact-border">
                 <div className="row">
-                    <div className="col"><h1 className="text-center pt-5 pb-3 a3 Nunito">{t('Contact.1')}</h1></div>
-                    <p className="h5 pt-4 text-center Nunito">{t('Contact.2')}</p> 
-                    <p className="h5 pt-4 text-center Nunito"><b>{t('Contact.3')}</b></p>
-                    <p className="h5 pt-4 text-center Nunito"><b>{t('Contact.4')}</b></p>
+                    <div className="col"><h1 className="text-center pt-5 pb-3 a3 Nunito mb-t">{t('Contact.1')}</h1></div>
+                    <p className="h5 pt-4 text-center Nunito mb-t">{t('Contact.2')}</p> 
+                    <p className="h5 pt-4 text-center Nunito mb-t"><b>{t('Contact.3')}</b></p>
+                    <p className="h5 pt-4 text-center Nunito mb-t"><b>{t('Contact.4')}</b></p>
                 </div>
                 <div className="row pt-5">
                     <div className="col mx-5">
-                        <h2 className="Oswald">Email:</h2>
-                        <p className="h5 Nunito small"><a href="mailto:contact@szumiel.com">contact@szumiel.com</a></p>
+                        <h2 className="Oswald mb-t">Email:</h2>
+                        <p className="h5 Nunito small mb-t"><a href="mailto:contact@szumiel.com">contact@szumiel.com</a></p>
                     </div>
                     <div className="col mx-5">
-                        <h2 className="Oswald">{t('Contact.5')}</h2>
-                        <p className="h5 Nunito small"><a href="tel:+48731030490">+48 731 03 04 90</a></p>
+                        <h2 className="Oswald mb-t">{t('Contact.5')}</h2>
+                        <p className="h5 Nunito small mb-t"><a href="tel:+48731030490">+48 731 03 04 90</a></p>
                     </div>
                     <div className="col mx-5">
-                        <h2 className="Oswald">{t('Contact.6')}</h2>
-                        <p className="h6 Nunito">{t('Contact.7')}</p>
+                        <h2 className="Oswald mb-t">{t('Contact.6')}</h2>
+                        <p className="h6 Nunito mb-t">{t('Contact.7')}</p>
                     </div>
                 </div>
             </div>
